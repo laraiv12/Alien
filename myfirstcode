@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FORM</title>
+<link rel="icon" href="C:\Users\LK\Downloads\a.png" type="image/x-icon">
+</head>
+<body>
+<form>
+<input type="radio" name="gender" value="male" checked>Male<br>
+<input type="radio" name="gender" value="female" >Female<br>
+<input type="radio" name="gender" value="other">Other
+</form>
+<br>
+<form>
+<select name="car" size="2">
+	<option value="bmw">BMW</option>
+	<option value="ferari">Ferari</option>
+	<option value="audi">Audi</option>
+</select><br><br>
+<input type="submit" onclick="alert('Data SUBMITED')">	
+</form><br>
+<form>
+<textarea name="message" rows="10" cols="20">type</textarea>
+</form>
+<form>
+<input name="browser" list="browsers">
+	<datalist id="browsers">
+		<option value="chrome">
+		<option value="Explorer">
+		<option value="Opera-Browser">
+	</datalist>
+<input type="submit" onclick="alert('Fev. Browser')">	
+</form><br>
+<button type="button" onclick="alert('SUBMITED')">Final Submit</button>
+</body>
+</html>
